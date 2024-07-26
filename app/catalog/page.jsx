@@ -44,7 +44,7 @@ const Catalog = () => {
           <div className="home_three_row1">
             <Things text="BASE & CASE" image={w_bc} link="/catalog/basencase" />
             <Things text="CNC WORK" image={w_cnc} link="/catalog/cnc" />
-            <Things text="PANEL MOLD" image={w_panelmoldb} link="/catalog/panelmould" />
+            <Things text="PANEL MOLD" image={w_panelmoldb} link="/catalog/panelmold" />
           </div>
           <div className="home_three_row1">
             <Things text="NOSING" image={w_nosing} link="/catalog/nosing" />

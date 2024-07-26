@@ -4,13 +4,19 @@ import Image from 'next/image';
 import { Inter, Fugaz_One } from 'next/font/google';
 import './home.css';
 
-const inter = Inter({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] });
-const fugazOne = Fugaz_One({ subsets: ['latin'], weight: '400' });
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+});
+
+const fugazOne = Fugaz_One({
+  subsets: ['latin'],
+  weight: '400'
+});
 
 const Home = () => {
   return (
     <div className={`home ${inter.className}`}>
-      {/* Home One */}
       <div className="home_one">
         <div className="home_one_text">
           <h1 className={fugazOne.className}>REDEFINING 'RUN OF THE MILL'</h1>
@@ -25,7 +31,6 @@ const Home = () => {
         <div className="home_one_diag">SERVICES</div>
       </div>
 
-      {/* Home Two */}
       <div className="home_two">
         <div className="home_two_text">
           <div className="home_two_text_1">
@@ -69,7 +74,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Home Three */}
       <div className="home_three">
         <div className="home_three_bar">WORK</div>
         <Image className="home_three_banner" alt="Woodworker" src="/woodworker.jpg" width={800} height={600} />
